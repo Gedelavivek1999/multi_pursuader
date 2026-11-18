@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000818] (px4_offboard) JobQueued: {'identifier': 'px4_offboard', 'dependencies': OrderedDict()}
+[0.000875] (px4_bringup) JobQueued: {'identifier': 'px4_bringup', 'dependencies': OrderedDict([('px4_offboard', '/home/vivek/px4-drone-teleoperation/install/px4_offboard')])}
+[0.000908] (px4_offboard) JobStarted: {'identifier': 'px4_offboard'}
+[0.084826] (-) TimerEvent: {}
+[0.185386] (-) TimerEvent: {}
+[0.286057] (-) TimerEvent: {}
+[0.386487] (-) TimerEvent: {}
+[0.487259] (-) TimerEvent: {}
+[0.588000] (-) TimerEvent: {}
+[0.688510] (-) TimerEvent: {}
+[0.787356] (px4_offboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/px4_offboard', 'build', '--build-base', '/home/vivek/px4-drone-teleoperation/build/px4_offboard/build', 'install', '--record', '/home/vivek/px4-drone-teleoperation/build/px4_offboard/install.log', '--install-scripts', '$base/lib/px4_offboard', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vivek/px4-drone-teleoperation/px4_offboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vivek'), ('SHLVL', '1'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek/px4-drone-teleoperation'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'vivek'), ('NAME', 'DESKTOP-9UR68S8'), ('WSL_INTEROP', '/run/WSL/16691_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/WSL/:/mnt/c/Users/gedel/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gedel/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gedel/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/gedel/.mcuxpressotools/wget-1.21.4:/mnt/c/Program Files/Git/bin:/mnt/c/Users/gedel/.mcuxpressotools/ninja-1.13.2:/mnt/c/Users/gedel/.mcuxpressotools/cmake-3.30.0-windows-x86_64/bin:/mnt/c/Users/gedel/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/MinGW/bin:/mnt/c/Users/gedel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gedel/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/mnt/c/Users/gedel/AppData/Roaming/npm:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/vivek/px4-drone-teleoperation/build/px4_offboard'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('PYTHONPATH', '/home/vivek/px4-drone-teleoperation/build/px4_offboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages:')]), 'shell': False}
+[0.789619] (-) TimerEvent: {}
+[0.890223] (-) TimerEvent: {}
+[0.990797] (-) TimerEvent: {}
+[1.005206] (px4_offboard) StdoutLine: {'line': b'running egg_info\n'}
+[1.006820] (px4_offboard) StdoutLine: {'line': b'creating ../build/px4_offboard/px4_offboard.egg-info\n'}
+[1.007234] (px4_offboard) StdoutLine: {'line': b'writing ../build/px4_offboard/px4_offboard.egg-info/PKG-INFO\n'}
+[1.010528] (px4_offboard) StdoutLine: {'line': b'writing dependency_links to ../build/px4_offboard/px4_offboard.egg-info/dependency_links.txt\n'}
+[1.012807] (px4_offboard) StdoutLine: {'line': b'writing entry points to ../build/px4_offboard/px4_offboard.egg-info/entry_points.txt\n'}
+[1.013350] (px4_offboard) StdoutLine: {'line': b'writing requirements to ../build/px4_offboard/px4_offboard.egg-info/requires.txt\n'}
+[1.013687] (px4_offboard) StdoutLine: {'line': b'writing top-level names to ../build/px4_offboard/px4_offboard.egg-info/top_level.txt\n'}
+[1.014275] (px4_offboard) StdoutLine: {'line': b"writing manifest file '../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'\n"}
+[1.017472] (px4_offboard) StdoutLine: {'line': b"reading manifest file '../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'\n"}
+[1.018281] (px4_offboard) StdoutLine: {'line': b"writing manifest file '../build/px4_offboard/px4_offboard.egg-info/SOURCES.txt'\n"}
+[1.019903] (px4_offboard) StdoutLine: {'line': b'running build\n'}
+[1.020118] (px4_offboard) StdoutLine: {'line': b'running build_py\n'}
+[1.020249] (px4_offboard) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/build/px4_offboard/build\n'}
+[1.020657] (px4_offboard) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib\n'}
+[1.020755] (px4_offboard) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard\n'}
+[1.021059] (px4_offboard) StdoutLine: {'line': b'copying px4_offboard/__init__.py -> /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard\n'}
+[1.021169] (px4_offboard) StdoutLine: {'line': b'copying px4_offboard/velocity_offboard_control.py -> /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard\n'}
+[1.021435] (px4_offboard) StdoutLine: {'line': b'copying px4_offboard/position_offboard_control.py -> /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard\n'}
+[1.021603] (px4_offboard) StdoutLine: {'line': b'copying px4_offboard/teleop_keyboard.py -> /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard\n'}
+[1.021841] (px4_offboard) StdoutLine: {'line': b'copying px4_offboard/teleop_joystick.py -> /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard\n'}
+[1.022676] (px4_offboard) StdoutLine: {'line': b'running install\n'}
+[1.023251] (px4_offboard) StdoutLine: {'line': b'running install_lib\n'}
+[1.024232] (px4_offboard) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard\n'}
+[1.024831] (px4_offboard) StdoutLine: {'line': b'copying /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard/__init__.py -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard\n'}
+[1.025123] (px4_offboard) StdoutLine: {'line': b'copying /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard/velocity_offboard_control.py -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard\n'}
+[1.025470] (px4_offboard) StdoutLine: {'line': b'copying /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard/position_offboard_control.py -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard\n'}
+[1.025785] (px4_offboard) StdoutLine: {'line': b'copying /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard/teleop_keyboard.py -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard\n'}
+[1.026185] (px4_offboard) StdoutLine: {'line': b'copying /home/vivek/px4-drone-teleoperation/build/px4_offboard/build/lib/px4_offboard/teleop_joystick.py -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard\n'}
+[1.027341] (px4_offboard) StdoutLine: {'line': b'byte-compiling /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/__init__.py to __init__.cpython-310.pyc\n'}
+[1.028145] (px4_offboard) StdoutLine: {'line': b'byte-compiling /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/velocity_offboard_control.py to velocity_offboard_control.cpython-310.pyc\n'}
+[1.029872] (px4_offboard) StdoutLine: {'line': b'byte-compiling /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/position_offboard_control.py to position_offboard_control.cpython-310.pyc\n'}
+[1.031224] (px4_offboard) StdoutLine: {'line': b'byte-compiling /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc\n'}
+[1.032445] (px4_offboard) StdoutLine: {'line': b'byte-compiling /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard/teleop_joystick.py to teleop_joystick.cpython-310.pyc\n'}
+[1.033801] (px4_offboard) StdoutLine: {'line': b'running install_data\n'}
+[1.034212] (px4_offboard) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/ament_index\n'}
+[1.034747] (px4_offboard) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/ament_index/resource_index\n'}
+[1.034851] (px4_offboard) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/ament_index/resource_index/packages\n'}
+[1.034907] (px4_offboard) StdoutLine: {'line': b'copying resource/px4_offboard -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/ament_index/resource_index/packages\n'}
+[1.035238] (px4_offboard) StdoutLine: {'line': b'copying package.xml -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/px4_offboard\n'}
+[1.035840] (px4_offboard) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/px4_offboard/launch\n'}
+[1.036219] (px4_offboard) StdoutLine: {'line': b'copying launch/joystick_teleop.launch.py -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/px4_offboard/launch\n'}
+[1.036571] (px4_offboard) StdoutLine: {'line': b'copying launch/keyboard_teleop.launch.py -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/px4_offboard/launch\n'}
+[1.036813] (px4_offboard) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/px4_offboard/config\n'}
+[1.037177] (px4_offboard) StdoutLine: {'line': b'copying config/joy_config.yaml -> /home/vivek/px4-drone-teleoperation/install/px4_offboard/share/px4_offboard/config\n'}
+[1.037693] (px4_offboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.040720] (px4_offboard) StdoutLine: {'line': b'Copying ../build/px4_offboard/px4_offboard.egg-info to /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages/px4_offboard-0.0.1-py3.10.egg-info\n'}
+[1.043533] (px4_offboard) StdoutLine: {'line': b'running install_scripts\n'}
+[1.068621] (px4_offboard) StdoutLine: {'line': b'Installing position_offboard_control.py script to /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/px4_offboard\n'}
+[1.069012] (px4_offboard) StdoutLine: {'line': b'Installing teleop_joystick.py script to /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/px4_offboard\n'}
+[1.069268] (px4_offboard) StdoutLine: {'line': b'Installing teleop_keyboard.py script to /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/px4_offboard\n'}
+[1.069473] (px4_offboard) StdoutLine: {'line': b'Installing velocity_offboard_control.py script to /home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/px4_offboard\n'}
+[1.069928] (px4_offboard) StdoutLine: {'line': b"writing list of installed files to '/home/vivek/px4-drone-teleoperation/build/px4_offboard/install.log'\n"}
+[1.091115] (-) TimerEvent: {}
+[1.107434] (px4_offboard) CommandEnded: {'returncode': 0}
+[1.134897] (px4_offboard) JobEnded: {'identifier': 'px4_offboard', 'rc': 0}
+[1.136917] (px4_bringup) JobStarted: {'identifier': 'px4_bringup'}
+[1.191330] (-) TimerEvent: {}
+[1.292082] (-) TimerEvent: {}
+[1.392859] (-) TimerEvent: {}
+[1.493402] (-) TimerEvent: {}
+[1.594011] (-) TimerEvent: {}
+[1.694779] (-) TimerEvent: {}
+[1.795508] (-) TimerEvent: {}
+[1.896124] (-) TimerEvent: {}
+[1.996677] (-) TimerEvent: {}
+[2.097234] (-) TimerEvent: {}
+[2.171825] (px4_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/px4_bringup', 'build', '--build-base', '/home/vivek/px4-drone-teleoperation/build/px4_bringup/build', 'install', '--record', '/home/vivek/px4-drone-teleoperation/build/px4_bringup/install.log', '--install-scripts', '$base/lib/px4_bringup', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vivek/px4-drone-teleoperation/px4_bringup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vivek'), ('SHLVL', '1'), ('HOME', '/home/vivek'), ('OLDPWD', '/home/vivek/px4-drone-teleoperation'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'vivek'), ('NAME', 'DESKTOP-9UR68S8'), ('WSL_INTEROP', '/run/WSL/16691_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/vivek/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/WSL/:/mnt/c/Users/gedel/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/gedel/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/gedel/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/gedel/.mcuxpressotools/wget-1.21.4:/mnt/c/Program Files/Git/bin:/mnt/c/Users/gedel/.mcuxpressotools/ninja-1.13.2:/mnt/c/Users/gedel/.mcuxpressotools/cmake-3.30.0-windows-x86_64/bin:/mnt/c/Users/gedel/AppData/Local/Microsoft/WindowsApps:/mnt/c/MinGW/bin:/mnt/c/MinGW/bin:/mnt/c/Users/gedel/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/gedel/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim:/mnt/c/Users/gedel/AppData/Roaming/npm:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/vivek/px4-drone-teleoperation/install/px4_offboard'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/vivek/px4-drone-teleoperation/build/px4_bringup'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vivek/px4-drone-teleoperation/build/px4_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vivek/px4-drone-teleoperation/install/px4_bringup/lib/python3.10/site-packages:/home/vivek/px4-drone-teleoperation/install/px4_offboard/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[2.197488] (-) TimerEvent: {}
+[2.297988] (-) TimerEvent: {}
+[2.355815] (px4_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[2.356285] (px4_bringup) StdoutLine: {'line': b'creating ../build/px4_bringup/px4_bringup.egg-info\n'}
+[2.356746] (px4_bringup) StdoutLine: {'line': b'writing ../build/px4_bringup/px4_bringup.egg-info/PKG-INFO\n'}
+[2.357631] (px4_bringup) StdoutLine: {'line': b'writing dependency_links to ../build/px4_bringup/px4_bringup.egg-info/dependency_links.txt\n'}
+[2.358131] (px4_bringup) StdoutLine: {'line': b'writing entry points to ../build/px4_bringup/px4_bringup.egg-info/entry_points.txt\n'}
+[2.358410] (px4_bringup) StdoutLine: {'line': b'writing requirements to ../build/px4_bringup/px4_bringup.egg-info/requires.txt\n'}
+[2.359098] (px4_bringup) StdoutLine: {'line': b'writing top-level names to ../build/px4_bringup/px4_bringup.egg-info/top_level.txt\n'}
+[2.359502] (px4_bringup) StdoutLine: {'line': b"writing manifest file '../build/px4_bringup/px4_bringup.egg-info/SOURCES.txt'\n"}
+[2.363581] (px4_bringup) StdoutLine: {'line': b"reading manifest file '../build/px4_bringup/px4_bringup.egg-info/SOURCES.txt'\n"}
+[2.364137] (px4_bringup) StdoutLine: {'line': b"writing manifest file '../build/px4_bringup/px4_bringup.egg-info/SOURCES.txt'\n"}
+[2.364376] (px4_bringup) StdoutLine: {'line': b'running build\n'}
+[2.364563] (px4_bringup) StdoutLine: {'line': b'running build_py\n'}
+[2.364888] (px4_bringup) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/build/px4_bringup/build\n'}
+[2.365207] (px4_bringup) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/build/px4_bringup/build/lib\n'}
+[2.365966] (px4_bringup) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/build/px4_bringup/build/lib/px4_bringup\n'}
+[2.366101] (px4_bringup) StdoutLine: {'line': b'copying px4_bringup/__init__.py -> /home/vivek/px4-drone-teleoperation/build/px4_bringup/build/lib/px4_bringup\n'}
+[2.366386] (px4_bringup) StdoutLine: {'line': b'running install\n'}
+[2.366740] (px4_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[2.367279] (px4_bringup) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_bringup/lib/python3.10/site-packages/px4_bringup\n'}
+[2.367850] (px4_bringup) StdoutLine: {'line': b'copying /home/vivek/px4-drone-teleoperation/build/px4_bringup/build/lib/px4_bringup/__init__.py -> /home/vivek/px4-drone-teleoperation/install/px4_bringup/lib/python3.10/site-packages/px4_bringup\n'}
+[2.368395] (px4_bringup) StdoutLine: {'line': b'byte-compiling /home/vivek/px4-drone-teleoperation/install/px4_bringup/lib/python3.10/site-packages/px4_bringup/__init__.py to __init__.cpython-310.pyc\n'}
+[2.368696] (px4_bringup) StdoutLine: {'line': b'running install_data\n'}
+[2.369244] (px4_bringup) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_bringup/share/ament_index\n'}
+[2.369378] (px4_bringup) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_bringup/share/ament_index/resource_index\n'}
+[2.369465] (px4_bringup) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_bringup/share/ament_index/resource_index/packages\n'}
+[2.369685] (px4_bringup) StdoutLine: {'line': b'copying resource/px4_bringup -> /home/vivek/px4-drone-teleoperation/install/px4_bringup/share/ament_index/resource_index/packages\n'}
+[2.369893] (px4_bringup) StdoutLine: {'line': b'copying package.xml -> /home/vivek/px4-drone-teleoperation/install/px4_bringup/share/px4_bringup\n'}
+[2.370162] (px4_bringup) StdoutLine: {'line': b'creating /home/vivek/px4-drone-teleoperation/install/px4_bringup/share/px4_bringup/launch\n'}
+[2.370336] (px4_bringup) StdoutLine: {'line': b'copying launch/minimal.launch.py -> /home/vivek/px4-drone-teleoperation/install/px4_bringup/share/px4_bringup/launch\n'}
+[2.370649] (px4_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.374238] (px4_bringup) StdoutLine: {'line': b'Copying ../build/px4_bringup/px4_bringup.egg-info to /home/vivek/px4-drone-teleoperation/install/px4_bringup/lib/python3.10/site-packages/px4_bringup-0.0.1-py3.10.egg-info\n'}
+[2.375866] (px4_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[2.398388] (-) TimerEvent: {}
+[2.399644] (px4_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/vivek/px4-drone-teleoperation/build/px4_bringup/install.log'\n"}
+[2.431227] (px4_bringup) CommandEnded: {'returncode': 0}
+[2.440297] (px4_bringup) JobEnded: {'identifier': 'px4_bringup', 'rc': 0}
+[2.442370] (-) EventReactorShutdown: {}
